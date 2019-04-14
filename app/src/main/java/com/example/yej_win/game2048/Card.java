@@ -18,6 +18,7 @@ public class Card extends FrameLayout {
         label.setBackgroundColor(0x33ffffff);
         label.setGravity(Gravity.CENTER);
         label.setTextColor(Color.WHITE);
+        label.getBackground().setAlpha(num<=255?num:255);
         LayoutParams layoutParams = new LayoutParams(-1,-1);
         layoutParams.setMargins(10,10,0,0);
         addView(label,layoutParams);

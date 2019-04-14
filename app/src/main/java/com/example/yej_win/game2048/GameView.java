@@ -56,7 +56,7 @@ public class GameView extends GridLayout {
 
     public void initGameView(){
         setColumnCount(4);
-        setBackgroundColor(0xffbbada0);
+//        setBackgroundColor(0xffbbada0);
         cardWidth = getCardWidth();
         addCard(cardWidth,cardWidth);
         startGame();
